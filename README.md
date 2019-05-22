@@ -16,6 +16,7 @@ settings to your liking.
 - Clone this repository or download project
 - Import the project into your favorite IDE
 - Go through the applications.properties file and make the necessary changes
+- Go to the pom.xml and change the groupId and artifactId
 - If you would like to use a MySQL database, uncomment the lines in the User.java class
 
 You are now ready to go! Happy Coding!
