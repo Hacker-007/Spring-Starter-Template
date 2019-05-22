@@ -1,0 +1,8 @@
+--DROP SCHEMA `starterapplication`;
+--CREATE SCHEMA `starterapplication`;
+--CREATE TABLE `starterapplication`.`user` (
+--  `id` INT NOT NULL AUTO_INCREMENT,
+--  `name` VARCHAR(255) NOT NULL,
+--  `role` VARCHAR(255) NOT NULL,
+--  PRIMARY KEY (`id`),
+--  UNIQUE INDEX `id_UNIQUE` (`id` ASC));
