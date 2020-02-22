@@ -14,10 +14,10 @@ public class LoadDatabase {
     CommandLineRunner initDatabase(UserRepository repository) {
         return args -> {
             if(repository.findAll().size() == 0) {
-                log.info("Preloading: " + repository.save(new User("Srinivas Pothukuchi", "Software Developer")));
-                log.info("Preloading: " + repository.save(new User("Pavani Pothukuchi", "Sales Analyst")));
-                log.info("Preloading: " + repository.save(new User("Revanth Pothukuchi", "Software Developer")));
-                log.info("Preloading: " + repository.save(new User("Varenya Pothukuchi", "Artist?")));
+                log.info("Preloading: " + repository.save(new User("User 1", "Human")));
+                log.info("Preloading: " + repository.save(new User("User 2", "Human")));
+                log.info("Preloading: " + repository.save(new User("User 3", "Human")));
+                log.info("Preloading: " + repository.save(new User("User 4", "Human")));
             }
         };
     }
